@@ -7,9 +7,7 @@ BiocManager::install("topGO", force = TRUE)
 
 library("topGO")
 
-setwd("H:\\毕业生\\王诗扬\\manuscript\\article.v1\\revise1\\PSGs\\go")
-
-# 1. ???ݵ???
+setwd("\\PSGs\\go")
 
 
 gene2go <- readMappings("LJL17009_target.emapper.go.txt")
